@@ -1,9 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Name of Page</title>
+	<title>Contact Me</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+	<style>
+	/* Form styling */
+
+	input[type=text] {
+		background-color: 		#d5d2cb;
+		border:		2px	solid	#292533;
+		width:		100%;
+		padding:	12px	20px;
+		margin:		8px 0;
+		box-sizing:	border-box;
+
+	}
+
+	fieldset {
+		background-color: #d5d2cb;
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing:	border-box;
+
+	}
+
+	input, label {
+		font-size: 16px;
+		font-family: Arial, Helvetica, serif;
+		font-weight: bold;
+	}
+
+	legend {
+		font-size: 16px;
+		font-family:	Arial, Helvetica, serif;
+		font-weight: bold;
+	}
+
+	select {
+		background-color:	#d5d2cb;
+		width:	100%;
+		padding:	12px 20px;
+		margin:	8px 0;
+		box-sizing:	border-box;
+	}
+
+	textarea {
+		width: 100%;
+		height: 200px;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border: 3px solid #44749d;
+		border-radius: 3px;
+		background-color: #d5d2cb;
+		resize: none;
+	}
+
+	input, submit{
+		background-color: #8c2238;
+		border: none;
+		color: white;
+		padding: 12px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+	}
+	</style>
 	<div id="title">
     	<h1>Contact Me</h1>
     	</div>
@@ -51,7 +117,7 @@
             <label for="info">Additional Information</label><br />
             <textarea id="info"></textarea><br />
             <input type="submit" name="submit" value="Submit">
-        
+
         </form>
 </body>
 </html>
